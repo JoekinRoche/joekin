@@ -1,13 +1,13 @@
 import React from 'react'
 // import Header from './components/header/Header'
-import Nav from './components/nav/Nav'
-import About from './components/about/About'
-import Experience from './components/experience/Experience'
-import Services from './components/services/Services'
-import Projects from './components/project/Projects'
-import Testimonials from './components/testimonials/Testimonials'
-import Contact from './components/contact/Contact'
-import Footer from './components/footer/Footer'
+import Nav from './Components/nav/nav'
+import About from './Components/about/about'
+import Contact from './Components/contact/contact'
+import Experience from './Components/experience/experience'
+import Projects from './Components/project/project'
+import Services from './Components/services/services'
+import Testimonials from './Components/testimonials/testimonials'
+import Footer from './Components/footer/footer'
 
 const App = () => {
   return (
