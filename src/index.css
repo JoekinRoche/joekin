@@ -9,10 +9,12 @@
   text-decoration: none;
 }
 
+/* #4f212f */
+
 :root {
   --color-bg: #0e0e11;
-  --color-bg-variant: #4f212f;
-  --color-primary:#a1457e;
+  --color-bg-variant: #170555;
+  --color-primary:#454bbd;
   --color-primary-variant: rgba(17, 68, 104, 0.4);
   --color-white: #fff;
   --color-light: rgba(255,255,255,0.6);
