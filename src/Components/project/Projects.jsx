@@ -4,9 +4,9 @@ import "./project.css";
 import IMG1 from "../../assets/IMG1.jpeg";
 import IMG2 from "../../assets/Switcher.jpg";
 import IMG3 from "../../assets/Gesture Based.jpeg";
-import IMG4 from "../../assets/recipeapp.PNG";
+import IMG4 from "../../assets/farm2hand.jpg";
 import IMG5 from "../../assets/Space Travel.PNG";
-import IMG6 from "../../assets/awesomebooks.png";
+import IMG6 from "../../assets/demandest.png";
 
 const projects = [
   {
