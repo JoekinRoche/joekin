@@ -1,22 +1,47 @@
-import React from "react";
+import React, { useState } from "react";
 import "./about.css";
 import Me from "../../assets/wallpaper.jpg";
 import { FaAward, FaCertificate, FaFolder} from "react-icons/fa";
+import {motion} from "framer-motion";
 
 const About = () => {
+
+  const [isAnimating,setIsAnimating] = useState(false)
+
   return (
     <section id="about">
       <h5>Hello I'm</h5>
         <h2 className="flex justify-content-center">Joekin Roche</h2>
         {/* <h5 className="text-light"> Full-stack Developer</h5> */}
       <div className="container about_container">
-        <div className="about_me">
+        <motion.div
+        className="about_me"
+        animate={{
+          y: isAnimating ? "-1rem":"0rem",
+        }}
+        transition={{
+          stiffness: 100,
+          damping:1,
+          type: "spring"
+        }}
+        onHoverStart= {() => setIsAnimating(!isAnimating)}
+        >
           <div className="about_me-image">
             <img src={Me} alt="About me" />
           </div>
-        </div>
+        </motion.div>
         <div className="about_content">
-          <div className="about_cards">
+          <motion.div className="about_cards"
+          animate={{
+            y: "-1rem",
+          }}
+          transition={{
+            stiffness: 100,
+            damping:1,
+            type: "spring"
+          }}
+          
+          >
             <article className="about_card">
               <FaAward className="about_icon" />
               <h5>Experience</h5>
@@ -32,7 +57,7 @@ const About = () => {
               <h5>Projects</h5>
               <small>10 projects completed</small>
             </article>
-          </div>
+          </motion.div>
           <p>I’m a certified full-stack developer, who enjoys building interactive  interfaces with JavaScript, React and Ruby On Rails.
             <br />
             <br />

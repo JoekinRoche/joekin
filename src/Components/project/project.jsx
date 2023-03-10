@@ -53,11 +53,39 @@ const projects = [
   },
 ];
 const Projects = () => {
-  const [selectedId, setSelectedId] = useState(null);
   return (
     <section id="project">
-      
-      {/* <div className="container project_container"> */}
+      <div className="container project_container">
+      {projects.map(({ id, image, title, github, demo }) => {
+          return (
+            <article key={id} className="project_item">
+          <div className="project_item-image">
+          <img src={image} alt={title} />
+          </div>
+              <h3>{title}</h3>
+          <div className="project-item-cta">
+                     <a
+            href={github}
+            className="btn"
+          >
+            Github
+          </a>
+          <a href={demo} className="btn btn-primary" target='_blank' rel="noreferrer">
+            Live Demo
+          </a>
+          </div> 
+        </article>
+          )
+        })}               
+      </div>
+    </section>
+  );
+};
+
+export default Projects;
+
+
+{/* <div className="container project_container"> */}
 
       {/* {projects.map(({ id, image, title, github, demo }) => {
           return (
@@ -81,8 +109,3 @@ const Projects = () => {
           )
         })}               
       </div> */}
-    </section>
-  );
-};
-
-export default Projects;
