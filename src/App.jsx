@@ -8,6 +8,7 @@ import Projects from './Components/project/Projects'
 import Services from './Components/services/Services'
 import Testimonials from './Components/testimonials/Testimonials'
 import Footer from './Components/footer/Footer'
+import { motion, useScroll } from "framer-motion"
 
 const App = () => {
   return (

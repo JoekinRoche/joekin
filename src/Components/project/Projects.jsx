@@ -48,8 +48,8 @@ const projects = [
     id: 6,
     image: IMG6,
     title: "DemandEst Food Service",
-    github: "https://github.com/Somdotta07/Awesome_Books",
-    demo: "https://somdotta07.github.io/Awesome_Books/",
+    github: "https://github.com/IBM-EPBL/IBM-Project-38233-1660375482",
+    demo: "https://github.com/IBM-EPBL/IBM-Project-38233-1660375482",
   },
 ];
 const Projects = () => {
@@ -59,10 +59,10 @@ const Projects = () => {
       {projects.map(({ id, image, title, github, demo }) => {
           return (
             <article key={id} className="project_item">
-          <div className="project_item-image">
-          <img src={image} alt={title} />
+          <div>
+          <img className="project_item-image" src={image} alt={title} />
           </div>
-              <h3>{title}</h3>
+              <h3 className="project_title">{title}</h3>
           <div className="project-item-cta">
                      <a
             href={github}
@@ -70,8 +70,8 @@ const Projects = () => {
           >
             Github
           </a>
-          <a href={demo} className="btn btn-primary" target='_blank' rel="noreferrer">
-            Live Demo
+          <a href={demo} className="project-item-cta btn btn-primary" target='_blank' rel="noreferrer">
+            SnapShots
           </a>
           </div> 
         </article>

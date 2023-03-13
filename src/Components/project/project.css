@@ -1,6 +1,6 @@
 .project_container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 2fr);
     gap: 2.5rem;
   }
   
@@ -20,6 +20,11 @@
   .project_item-image {
     border-radius: 0.5rem;
     overflow: hidden;
+    height: 75%;
+  }
+
+  .project_title {
+    font-size: 1.25rem;
   }
   
   .project_item h3 {
@@ -29,7 +34,8 @@
   .project-item-cta {
     display: flex;
     gap: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
+    border-radius: 1rem;
   }
   
   @media screen and (max-width: 1024px){

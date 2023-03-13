@@ -1,7 +1,7 @@
 import React from "react";
 import "./testimonials.css";
-import AVTR1 from "../../assets/Shahier.jpg";
-import AVTR2 from "../../assets/Chim.jpg";
+import AVTR1 from "../../assets/Roshitha.jfif";
+import AVTR2 from "../../assets/fabian.jfif";
 import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -10,15 +10,15 @@ import "swiper/css/navigation";
 const peers = [
   {
     avatar: AVTR1,
-    name: "Shahier Nashaat",
+    name: "Roshitha R",
     review:
-      "Somdotta is one of the best teammates I have ever worked with, she is a very good listener, a fast learner provides help to anyone in the team if needed, and is very committed to the responsibilities that she has.",
+      "Joekin Roche is one of the best teammates I have ever worked with, he is a very good listener, a fast learner provides help to anyone in the team if needed, and is very committed to the responsibilities that he has.",
   },
   {
     avatar: AVTR2,
-    name: "Chimwewme Sinyinza",
+    name: "Fabian Ferno",
     review:
-      "I had the chance to work with Somdotta on different projects. Her technical skills were always impressive. She constantly showed professional behaviour and a high level of problem-solving skills.She is always creative with writing codes and shows a nice attitude towards team members. Based on that, I would gladly recommend her as a software developer with her technical and soft skills.",
+      "I had the chance to work with Joekin Roche on different projects. His technical skills were always impressive. He constantly showed professional behaviour and a high level of problem-solving skills.He is always creative with writing codes and shows a nice attitude towards team members. Based on that, I would gladly recommend him as a software developer with his technical and soft skills.",
   },
 ];
 
