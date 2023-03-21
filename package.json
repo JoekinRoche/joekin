@@ -15,6 +15,9 @@
     "swiper": "^9.0.5",
     "web-vitals": "^2.1.4"
   },
+  "devDependencies": {
+    "path": "src"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

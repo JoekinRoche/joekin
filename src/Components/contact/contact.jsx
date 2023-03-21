@@ -40,7 +40,7 @@ const Contact = () => {
             <FaGithub className='contact_option-icon'/>
             <h4>GitHub</h4>
             <h5>JoekinRoche</h5>
-            <a href='https://angel.co/u/somdotta-sarkar' target="_blank" rel="noreferrer">Send a message</a>
+            <a href='https://github.com/JoekinRoche' target="_blank" rel="noreferrer">Send a message</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail} >
