@@ -7,7 +7,7 @@
   .project_item {
     background: var(--color-bg-variant);
     padding: 1.3rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
     border: 1px solid transparent;
     transition: var(--transition);
   }
@@ -24,7 +24,14 @@
   }
 
   .project_title {
-    font-size: 1.25rem;
+    font-size: 1rem;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .project_subtitle {
+    font-size: 0.80rem;
+    margin-bottom: 5%;
   }
   
   .project_item h3 {

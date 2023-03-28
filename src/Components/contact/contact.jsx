@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import './contact.css'
 import { MdEmail } from 'react-icons/md'
-import {FaLinkedin, FaAngellist,FaGithub} from 'react-icons/fa'
+import {FaLinkedin,FaGithub} from 'react-icons/fa'
 
 const Contact = () => {
   const form = useRef();
@@ -28,13 +28,13 @@ const Contact = () => {
             <MdEmail className='contact_option-icon'/>
             <h4>Email</h4>
             <h5>joekinroches@gmail.com</h5>
-            <a href='mailto:jhilick.s@gmail.com' target="_blank" rel="noreferrer">Send a message</a>
+            <a href='www.gmail.com' target="_blank" rel="noreferrer">Send a message</a>
           </article>
-            <article className='contact_option'>
+          <article className='contact_option'>
             <FaLinkedin className='contact_option-icon'/>
             <h4>LinkedIn</h4>
             <h5>JoekinRoche</h5>
-            <a href='https://www.linkedin.com/in/somdottasarkar/' target="_blank" rel="noreferrer">Send a message</a>
+            <a href='https://www.linkedin.com/' target="_blank" rel="noreferrer">Send a message</a>
           </article>
           <article className='contact_option'>
             <FaGithub className='contact_option-icon'/>
