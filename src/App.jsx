@@ -13,7 +13,7 @@ import { motion, useScroll } from "framer-motion"
 const App = () => {
   return (
     <>
-      <About />
+      <About classname="bg" />
       <Projects />
       {/* <Header /> */}
       <Nav />     

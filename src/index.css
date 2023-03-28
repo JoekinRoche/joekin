@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
 * {
   margin: 0;
@@ -10,6 +12,12 @@
 }
 
 /* #4f212f */
+.bg
+{
+   background-image: url(./assets/BG.jpg);
+   background-size: 100% 100%;
+}
+
 
 :root {
   --color-bg: #000000;

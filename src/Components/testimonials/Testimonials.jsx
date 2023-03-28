@@ -2,6 +2,7 @@ import React from "react";
 import "./testimonials.css";
 import AVTR1 from "../../assets/Roshitha.jfif";
 import AVTR2 from "../../assets/fabian.jfif";
+import AVTR3 from "../../assets/Preethi.jfif";
 import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -19,6 +20,11 @@ const peers = [
     name: "Fabian Ferno",
     review:
       "I had the chance to work with Joekin Roche on different projects. His technical skills were always impressive. He constantly showed professional behaviour and a high level of problem-solving skills.He is always creative with writing codes and shows a nice attitude towards team members. Based on that, I would gladly recommend him as a software developer with his technical and soft skills.",
+  },
+  {
+    avatar: AVTR3,
+    name: "Preethi R",
+    review: ""
   },
 ];
 

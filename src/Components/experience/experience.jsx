@@ -1,16 +1,9 @@
 import React from "react";
 import "./experience.css";
-import css3 from '../../assets/css3.png'
-import html from '../../assets/html-5.png'
-import js from '../../assets/javascript.png'
-import react from '../../assets/react.png'
-import bs from '../../assets/bootstrap.png'
-import three from '../../assets/threejs.png'
-import node from '../../assets/node.jpg'
-import postgr from '../../assets/postgresql.png'
-import python from '../../assets/python.png'
-import rails from '../../assets/rails.png'
-import ruby from '../../assets/ruby.png'
+import { FaJava,FaPython,FaHtml5,FaCss3,FaReact,FaBootstrap } from "react-icons/fa";
+import { DiMysql,DiNodejs,DiJavascript1 } from "react-icons/di";
+import { TbBrandTailwind } from "react-icons/tb";
+
 
 const Experience = () => {
   return (
@@ -22,14 +15,14 @@ const Experience = () => {
           <h3>Frontend Development</h3>
           <div className="experience_content">
             <article className="experience_details">
-              <img src={html} className="experience_details-icon" alt="html"/>
+              <FaHtml5 className="experience_details-icon"/>
               <div>
                 <h4>HTML</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
-              <img src={css3} className="experience_details-icon" alt="css"/>
+              <FaCss3 className="experience_details-icon"/>
               <div>
                
                 <h4>CSS3</h4>
@@ -37,31 +30,31 @@ const Experience = () => {
               </div>
             </article>
             <article className="experience_details">
-              <img src={js} className="experience_details-icon" alt="js"/>
+              <DiJavascript1 className="experience_details-icon"/>
               <div>
-                <h4>JAVASCRIPT</h4>
+                <h4>JavaScript</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
-              <img src={react} className="experience_details-icon" alt="react"/>
+              <FaReact className="experience_details-icon"/>
               <div>                
-                <h4>REACT & REDUX</h4>
+                <h4>ReactJS</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
-              <img src={bs} className="experience_details-icon" alt="bs"/>
+              <FaBootstrap className="experience_details-icon"/>
               <div>           
                 <h4>BOOTSTRAP</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
-              <img src={three} className="experience_details-icon" alt="threejs"/>
+              <TbBrandTailwind className="experience_details-icon"/>
               <div>
                
-                <h4>Three.js</h4>
+                <h4>TailwindCSS</h4>
                 <small className="text-light">Beginner</small>
               </div>
             </article>
@@ -72,42 +65,36 @@ const Experience = () => {
           <h3>Backend Development</h3>
           <div className="experience_content">
             <article className="experience_details">
-              <img src={postgr} className="experience_details-icon" alt="postgresql"/>
+              <DiMysql className="experience_details-icon"/>
               <div>
-               
-                <h4>PostgreSQL</h4>
+        
+                <h4>MySQL</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
-              <img src={ruby} className="experience_details-icon" alt="ruby"/>
+              <FaJava className="experience_details-icon"/>
               <div>
-                <h4>Ruby</h4>
-                <small className="text-light">Experienced</small>
+                <h4>Java</h4>
+                <small className="text-light">Beginner</small>
               </div>
             </article>
             <article className="experience_details">
-              <img src={rails} className="experience_details-icon" alt="rails"/>
+              <DiNodejs className="experience_details-icon" />
               <div>
              
-                <h4>Ruby on Rails</h4>
+                <h4>NodeJS</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
-              <img src={python} className="experience_details-icon" alt="python"/>
+              <FaPython className="experience_details-icon"/>
               <div>
                 <h4>Python</h4>
                 <small className="text-light">Beginner</small>
               </div>
             </article>
-            <article className="experience_details">
-              <img src={node} className="experience_details-icon" alt="node"/>
-              <div>
-                <h4>Node.js</h4>
-                <small className="text-light">Beginner</small>
-              </div>
-            </article>
+            
           </div>
         </div>
       </div>
