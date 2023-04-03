@@ -34,7 +34,7 @@ const Services = () => {
           <ul className="service_list">
             <li>
               <FaCheckSquare className="service_list-icon" />
-              <p>I build web apps using React, Rails or Ruby on Rails and PostgreSQL</p>
+              <p>I build web apps using React, TailwindCSS, MySQL and NodeJS</p>
             </li>
             <li>
               <FaCheckSquare className="service_list-icon" />

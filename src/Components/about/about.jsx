@@ -58,7 +58,7 @@ const About = () => {
               <small>10 projects completed</small>
             </article>
           </motion.div>
-          <p>I’m a certified full-stack developer, who enjoys building interactive  interfaces with JavaScript, React and Ruby On Rails.
+          <p>I’m a certified full-stack developer, who enjoys building interactive interfaces with JavaScript, ReactJS and MySQL.
             <br />
             <br />
             I'm open to Full-stack(remote/onsite) opportunities with a passion of Front-end development.
