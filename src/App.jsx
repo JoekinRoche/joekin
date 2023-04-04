@@ -1,6 +1,6 @@
 import React from 'react'
 // import Header from './components/header/Header'
-import Nav from './Components/nav/Nav'
+import Nav from './Components/nav/nav'
 import About from './Components/about/about'
 import Contact from './Components/contact/Contact'
 import Experience from './Components/experience/Experience'
