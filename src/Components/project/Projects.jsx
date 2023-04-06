@@ -29,7 +29,7 @@ const projects = [
     id: 3,
     image: IMG3,
     title: "Gesture Based Cursor Control",
-    subtitle : "A Ecommerce application for selling robotic products",
+    subtitle : "A application for disabled people to control the cursor trough a gesture",
     github: "https://github.com/JoekinRoche/gesture-based-cursor-control",
     demo: "https://github.com/JoekinRoche/gesture-based-cursor-control",
   },
